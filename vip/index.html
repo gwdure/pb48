@@ -2,104 +2,112 @@
 :root{--g:#2f6b3a;--g2:#1f4d29;--gl:#e8f2e3;--cr:#fbf8f1;--o:#ef6c1a;--r:#d8341f;--ink:#222a1f;--mu:#5d6858;--ln:#dfe7d8}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{-webkit-text-size-adjust:100%}
-body{background:var(--cr);color:var(--ink);font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Malgun Gothic',sans-serif;font-size:18px;line-height:1.55;letter-spacing:-.02em;word-break:keep-all;padding-bottom:104px}
+body{background:var(--cr);color:var(--ink);font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Malgun Gothic',sans-serif;font-size:20px;line-height:1.55;letter-spacing:-.02em;word-break:keep-all;padding-bottom:104px}
 .wrap{max-width:560px;margin:0 auto}
 .hero{position:relative;background:linear-gradient(175deg,#f7f3ea 0%,#eef1e6 60%,#e3ead9 100%);color:#24452b;text-align:center;padding:20px 18px 24px;border-radius:0 0 30px 30px;border-bottom:1px solid #d9e0cf}
-.hero .st{font-size:15px;font-weight:600;color:#6f7a68;letter-spacing:-.01em}
-.hero .ey{margin-top:14px;font-size:13px;font-weight:700;letter-spacing:.32em;color:#a08348}
+.hero .st{font-size:16.5px;font-weight:600;color:#6f7a68;letter-spacing:-.01em}
+.hero .ey{margin-top:8px;font-size:14.5px;font-weight:700;letter-spacing:.32em;color:#a08348}
 .hero .ey:before,.hero .ey:after{content:'';display:inline-block;width:22px;height:1px;background:#c7ad75;vertical-align:middle;margin:0 10px 3px}
 .hero h1{font-weight:800;font-size:34px;line-height:1.3;letter-spacing:-.05em;margin:8px 0 4px;color:#1f3b25}
 .hero h1 b{font-weight:900;color:#2f6b3a}
-.hero .sub{font-size:17px;font-weight:600;color:#56614f}
+.hero .sub{font-size:18.5px;font-weight:600;color:#56614f}
 .pct{display:flex;align-items:baseline;justify-content:center;gap:8px;margin-top:10px;color:#1f3b25}
-.pct span{font-size:19px;font-weight:700}.pct b{font-size:54px;font-weight:900;letter-spacing:-.04em;line-height:1;color:#a5762a}
+.pct span{font-size:21px;font-weight:700}.pct b{font-size:54px;font-weight:900;letter-spacing:-.04em;line-height:1;color:#a5762a}
 .pct .pl{color:#d0601a}
-.cpn{display:flex;align-items:stretch;max-width:360px;margin:18px auto 0;background:#fffdf7;border:2px dashed #c7ad75;border-radius:18px;overflow:hidden;box-shadow:0 6px 16px rgba(120,90,30,.12);text-align:left}
-.cpn .cl{flex:1;padding:12px 14px}.cpn .cl small{display:inline-block;background:#24452b;color:#fff;font-weight:800;font-size:13px;border-radius:6px;padding:1px 8px}
-.cpn .cl b{display:block;font-weight:900;font-size:23px;color:#1f3b25;letter-spacing:-.04em;margin-top:4px}.cpn .cl span{display:block;font-size:15.5px;font-weight:700;color:#6f7a68}
+.cpn{display:flex;align-items:stretch;max-width:360px;margin:14px auto 0;background:#fffdf7;border:2px dashed #c7ad75;border-radius:18px;overflow:hidden;box-shadow:0 6px 16px rgba(120,90,30,.12);text-align:left}
+.cpn .cl{flex:1;padding:12px 14px}.cpn .cl small{display:inline-block;background:#24452b;color:#fff;font-weight:800;font-size:15px;border-radius:6px;padding:1px 8px}
+.cpn .cl b{display:block;font-weight:900;font-size:25px;color:#1f3b25;letter-spacing:-.04em;margin-top:4px}.cpn .cl span{display:block;font-size:17px;font-weight:700;color:#6f7a68}
 .cpn .cr{flex:0 0 106px;background:linear-gradient(160deg,#ef7a2a,#d0601a);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;border-left:2px dashed #fff3e0}
 .cpn .cr b{font-size:40px;font-weight:900;line-height:1;letter-spacing:-.04em}.cpn .cr small{font-size:14.5px;font-weight:800;margin-top:2px}
-.use{margin-top:14px;font-size:17px;font-weight:600;color:#3b4a35;line-height:1.5}.use b{color:#d0601a;font-size:20px;font-weight:900}
+.use a{color:#24452b;font-weight:900}.use{margin-top:10px;font-size:18.5px;font-weight:600;color:#3b4a35;line-height:1.5}.use b{color:#d0601a;font-size:20px;font-weight:900}
 .ucall{display:inline-block;margin-top:10px;background:#fff;border:2px solid #24452b;color:#24452b;border-radius:99px;padding:8px 20px;font-weight:900;font-size:19px;text-decoration:none}
+.cpp{display:flex;align-items:baseline;justify-content:space-between;gap:6px;margin-top:6px;background:#fff1e6;border:2px dashed #f0b88d;border-radius:12px;padding:6px 10px}.cpp span{font-weight:800;font-size:16.5px;color:#d0601a}.cpp b{font-weight:900;font-size:27px;color:#d0601a;letter-spacing:-.04em}
 .cpt{display:inline-block;margin-left:2px;align-self:center;font-style:normal;background:#fff1e6;color:#d0601a;border:1.5px solid #f0b88d;border-radius:8px;padding:1px 7px;font-weight:900;font-size:14px}
-.shelf{display:flex;justify-content:center;gap:6px;margin:16px auto 0;max-width:420px}
+.shelf{display:flex;justify-content:center;gap:6px;margin:12px auto 0;max-width:340px}
 .shelf img{width:18%;aspect-ratio:3/4;object-fit:cover;border-radius:14px;background:#fff;box-shadow:0 6px 16px rgba(40,60,30,.14)}
 .shelf img:nth-child(odd){transform:translateY(6px)}
-.date{display:inline-block;margin-top:20px;background:#24452b;color:#fff;border-radius:99px;padding:10px 26px 11px;font-weight:800;font-size:27px;letter-spacing:-.03em;box-shadow:0 6px 16px rgba(30,60,30,.22)}
-.cert{margin-top:12px;font-size:14.5px;font-weight:600;color:#6f7a68}
+.date{display:inline-block;margin-top:14px;background:#24452b;color:#fff;border-radius:99px;padding:10px 26px 11px;font-weight:800;font-size:29.5px;letter-spacing:-.03em;box-shadow:0 6px 16px rgba(30,60,30,.22)}
+.cert{margin-top:12px;font-size:16px;font-weight:600;color:#6f7a68}
 .cert i{display:inline-block;width:1px;height:12px;background:#b9c2ae;margin:0 8px;vertical-align:-1px}
-.sec{padding:26px 0 0}
-h2{font-weight:900;font-size:26px;letter-spacing:-.05em;text-align:center;line-height:1.3;padding:0 16px}
-h2 small{display:block;font-weight:600;font-size:16.5px;color:var(--mu);letter-spacing:-.02em;margin-top:2px}
-.steps{list-style:none;display:flex;justify-content:space-between;gap:4px;margin:14px 12px 0;background:#fff;border:2px solid var(--ln);border-radius:18px;padding:12px 8px}
+.sec{padding:20px 0 0}.s1{padding-top:14px}.s1 h2{font-size:23px}
+h2{font-weight:900;font-size:28.5px;letter-spacing:-.05em;text-align:center;line-height:1.3;padding:0 16px}
+h2 small{display:block;font-weight:600;font-size:18px;color:var(--mu);letter-spacing:-.02em;margin-top:2px}
+.steps{list-style:none;display:flex;justify-content:space-between;gap:4px;margin:10px 12px 0;background:#fff;border:2px solid var(--ln);border-radius:18px;padding:12px 8px}
 .steps li{flex:1;text-align:center;position:relative}
-.steps img{width:54px;height:54px;object-fit:contain;display:block;margin:0 auto}
-.steps em{position:absolute;top:-6px;left:50%;margin-left:-28px;width:22px;height:22px;border-radius:50%;background:var(--o);color:#fff;font-style:normal;font-weight:900;font-size:13px;line-height:22px}
-.steps span{display:block;font-weight:800;font-size:15px;margin-top:2px}
-.rt{margin:12px 16px 0;border-radius:20px;overflow:hidden;border:2px solid var(--ln);background:#fff}
-.rtt{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 14px;font-weight:900;font-size:22px;letter-spacing:-.04em}
-.rtt span{font-size:26px}.rtt small{flex:1 1 100%;font-size:15.5px;font-weight:700;opacity:.9;letter-spacing:-.02em;margin-top:-2px}
+.steps img{width:46px;height:46px;object-fit:contain;display:block;margin:0 auto}
+.steps em{position:absolute;top:-6px;left:50%;margin-left:-28px;width:22px;height:22px;border-radius:50%;background:var(--o);color:#fff;font-style:normal;font-weight:900;font-size:14.5px;line-height:22px}
+.steps span{display:block;font-weight:800;font-size:16.5px;margin-top:2px}
+.tabs{display:flex;gap:8px;margin:12px 16px 0}
+.tabs button{flex:1;border:2px solid var(--ln);background:#fff;border-radius:14px;padding:10px;font:inherit;font-weight:900;font-size:21px;color:var(--mu);cursor:pointer}
+.tabs button.on{background:#24452b;border-color:#24452b;color:#fff}
+.rt.hide{display:none}
+.rt{margin:10px 16px 0;border-radius:20px;overflow:hidden;border:2px solid var(--ln);background:#fff}
+.rtt{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 14px;font-weight:900;font-size:24px;letter-spacing:-.04em}
+.rtt span{font-size:28.5px}.rtt small{flex:1 1 100%;font-size:17px;font-weight:700;opacity:.9;letter-spacing:-.02em;margin-top:-2px}
 .am .rtt{background:linear-gradient(120deg,#ffe9a8,#ffd27a);color:#5a3a00}
 .pm .rtt{background:linear-gradient(120deg,#2d3e63,#1d2a47);color:#fff}
 .rt ol{list-style:none;padding:4px 12px 8px}
 .rt li{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dashed var(--ln)}.rt li:last-child{border-bottom:0}
-.rt li em{flex:0 0 26px;height:26px;border-radius:50%;background:var(--o);color:#fff;font-style:normal;font-weight:900;font-size:15px;display:flex;align-items:center;justify-content:center}
+.rt li em{flex:0 0 26px;height:26px;border-radius:50%;background:var(--o);color:#fff;font-style:normal;font-weight:900;font-size:16.5px;display:flex;align-items:center;justify-content:center}
 .pm li em{background:#2d3e63}
 .rt li img{flex:0 0 52px;width:52px;height:52px;object-fit:contain;background:#f4f6f1;border-radius:10px}
-.rt li div{flex:1;min-width:0}.rt li b{display:block;font-weight:900;font-size:17.5px;line-height:1.3}
-.rt li span{display:block;font-size:15px;color:var(--mu);line-height:1.35}
-.rt li i{flex:0 0 auto;font-style:normal;font-weight:900;color:var(--r);font-size:16.5px}
-.tipx{margin:12px 16px 0;background:#fff;border:2px dashed var(--o);border-radius:14px;padding:10px 12px;text-align:center;font-size:16.5px;font-weight:700}.tipx b{color:var(--o)}
-.hint{display:flex;align-items:center;justify-content:center;gap:6px;margin:10px 0 8px;font-weight:800;font-size:17px;color:var(--o)}
+.rt li div{flex:1;min-width:0}.rt li b{display:block;font-weight:900;font-size:19px;line-height:1.3}
+.rt li span{display:block;font-size:16.5px;color:var(--mu);line-height:1.35}
+.rt li i{flex:0 0 auto;font-style:normal;font-weight:900;color:var(--r);font-size:18px}
+.tipx{margin:12px 16px 0;background:#fff;border:2px dashed var(--o);border-radius:14px;padding:10px 12px;text-align:center;font-size:18px;font-weight:700}.tipx b{color:var(--o)}
+.hint{display:flex;align-items:center;justify-content:center;gap:6px;margin:10px 0 8px;font-weight:800;font-size:18.5px;color:var(--o)}
 .rw{position:relative}
 .rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 16px 10px;scrollbar-width:none;align-items:flex-start}
 .rail::-webkit-scrollbar{display:none}
 .pc{flex:0 0 84%;max-width:360px;scroll-snap-align:center;background:#fff;border:2px solid var(--ln);border-radius:20px;overflow:hidden}
-.im{position:relative;height:230px;background:#f4f6f1;display:flex;align-items:center;justify-content:center}
-.im img{max-width:100%;max-height:230px;object-fit:contain}
-.off{position:absolute;top:10px;left:10px;background:var(--r);color:#fff;font-weight:900;font-size:19px;border-radius:99px;padding:2px 12px}
+.im{position:relative;height:175px;background:#f4f6f1;display:flex;align-items:center;justify-content:center}
+.im img{max-width:100%;max-height:175px;object-fit:contain}
+.off{position:absolute;top:10px;left:10px;background:var(--r);color:#fff;font-weight:900;font-size:21px;border-radius:99px;padding:2px 12px}
 .bd{padding:14px 15px 16px}
-.one{font-weight:800;font-size:16.5px;color:var(--o)}
-.pc h3{font-weight:900;font-size:22px;line-height:1.3;letter-spacing:-.04em;margin:2px 0 6px;overflow-wrap:anywhere}
-.pc h3 small{font-size:16px;font-weight:600;color:var(--mu)}
-.fn{display:inline-block;background:var(--gl);color:var(--g2);font-weight:800;font-size:14.5px;border-radius:8px;padding:2px 9px}
+.one{font-weight:800;font-size:18px;color:var(--o)}
+.pc h3{font-weight:900;font-size:24px;line-height:1.3;letter-spacing:-.04em;margin:2px 0 6px;overflow-wrap:anywhere}
+.pc h3 small{font-size:17.5px;font-weight:600;color:var(--mu)}
+.fn{display:inline-block;background:var(--gl);color:var(--g2);font-weight:800;font-size:16px;border-radius:8px;padding:2px 9px}
 .pr{display:flex;align-items:baseline;gap:8px;margin-top:8px}
-.pr s{color:#848d7f;font-size:16px}
-.pr b{color:var(--r);font-weight:900;font-size:28px;letter-spacing:-.04em}
+.pr s{color:#848d7f;font-size:17.5px}
+.pr b{color:var(--r);font-weight:900;font-size:31px;letter-spacing:-.04em}
 .pt{list-style:none;margin-top:8px;border-top:1px dashed var(--ln);padding-top:8px}
-.pt li{position:relative;padding-left:22px;font-size:16.5px;line-height:1.45;margin:4px 0}
+.pt li{position:relative;padding-left:22px;font-size:18px;line-height:1.45;margin:4px 0}
 .pt li:before{content:'✓';position:absolute;left:2px;top:0;color:var(--g);font-weight:900}
 .rv{margin-top:10px;background:#fff8ee;border-radius:14px;padding:10px 12px}
-.rh{font-size:15.5px;color:var(--mu);font-weight:700}.rh b{color:#e0a100;font-size:17px;margin-right:4px}
-blockquote{font-size:16px;line-height:1.5;margin-top:6px;color:#3b3328}
-.nav{position:absolute;top:120px;z-index:5;width:50px;height:50px;border-radius:50%;border:3px solid #fff;background:rgba(239,108,26,.96);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.3);padding:0;cursor:pointer}
+.rh{font-size:17px;color:var(--mu);font-weight:700}.rh b{color:#e0a100;font-size:18.5px;margin-right:4px}
+blockquote{font-size:17.5px;line-height:1.5;margin-top:6px;color:#3b3328}
+.nav{position:absolute;top:92px;z-index:5;width:50px;height:50px;border-radius:50%;border:3px solid #fff;background:rgba(239,108,26,.96);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.3);padding:0;cursor:pointer}
 .nav svg{width:26px;height:26px}.nav.l{left:6px}.nav.r{right:6px}.nav[disabled]{opacity:0;pointer-events:none}
 .dots{display:flex;justify-content:center;gap:6px;margin-top:4px}
 .dots i{width:9px;height:9px;border-radius:50%;background:#cfdcc6}.dots i.on{background:var(--o);width:22px;border-radius:99px}
 .vs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 16px 0}
-.vs div{background:#fff;border:2px solid var(--ln);border-radius:16px;padding:12px;text-align:center}
-.vs img{width:80px;height:80px;object-fit:contain}
-.vs b{display:block;font-weight:900;font-size:18px;line-height:1.3}
-.vs p{font-size:15.5px;line-height:1.45;color:var(--mu);margin-top:4px}
-.vs .tg{display:inline-block;margin-top:6px;background:var(--o);color:#fff;font-weight:800;font-size:14.5px;border-radius:99px;padding:1px 10px}
+.vs div{background:#fff;border:2px solid var(--ln);border-radius:16px;padding:10px;text-align:center}
+.vs img{width:52px;height:52px;object-fit:contain}
+.vs b{display:block;font-weight:900;font-size:20px;line-height:1.3}
+.vs p{font-size:17px;line-height:1.45;color:var(--mu);margin-top:4px}
+.vs .tg{display:inline-block;margin-top:6px;background:var(--o);color:#fff;font-weight:800;font-size:16px;border-radius:99px;padding:1px 10px}
 .info{margin:26px 16px 0;background:#fff;border:3px solid var(--g);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(30,80,30,.18)}
 .ih{background:var(--g);color:#fff;text-align:center;padding:12px 10px 14px}
-.ih small{display:block;font-size:16px;font-weight:700;opacity:.9}
-.ih b{display:inline-block;margin-top:4px;background:var(--o);color:#fff;border-radius:12px;padding:3px 14px;font-size:24px;font-weight:900}
+.ih small{display:block;font-size:17.5px;font-weight:700;opacity:.9}
+.ih b{display:inline-block;margin-top:4px;background:var(--o);color:#fff;border-radius:12px;padding:3px 14px;font-size:26.5px;font-weight:900}
 .ib{padding:14px 16px 16px}
-.nm{font-size:24px;font-weight:900;color:var(--g2);text-align:center}.nm span{color:var(--o)}
-.ad{text-align:center;font-size:17px;color:var(--mu);margin-top:2px}
+.nm{font-size:26.5px;font-weight:900;color:var(--g2);text-align:center}.nm span{color:var(--o)}
+.ad{text-align:center;font-size:18.5px;color:var(--mu);margin-top:2px}
+.hg{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px}
+.hg p{background:#f7faf4;border-radius:10px;padding:6px 8px;text-align:center;font-size:20px;font-weight:800}
+.hg b{display:block;font-size:16.5px;color:var(--g2)}.hg .off2{background:#fff3f3;color:var(--r)}.hg .off2 b{color:var(--r)}
 .hr{width:100%;border-collapse:separate;border-spacing:0 4px;margin-top:10px}
-.hr th{width:84px;background:var(--gl);color:var(--g2);font-size:18px;font-weight:900;border-radius:10px 0 0 10px;padding:7px 8px}
-.hr td{background:#f7faf4;font-size:19px;font-weight:700;border-radius:0 10px 10px 0;padding:7px 12px}
+.hr th{width:84px;background:var(--gl);color:var(--g2);font-size:20px;font-weight:900;border-radius:10px 0 0 10px;padding:7px 8px}
+.hr td{background:#f7faf4;font-size:21px;font-weight:700;border-radius:0 10px 10px 0;padding:7px 12px}
 .hr .off2 th{background:#fde2e2;color:var(--r)}.hr .off2 td{background:#fff3f3;color:var(--r);font-weight:900}
-.tl{display:block;margin-top:10px;text-align:center;background:#ffd76a;border:2px solid #d9a516;border-radius:14px;padding:10px;font-size:24px;font-weight:900;color:#2b1a00;text-decoration:none}
-.nt{margin-top:8px;text-align:center;font-size:15.5px;color:var(--mu)}
+.tl{display:block;margin-top:10px;text-align:center;background:#ffd76a;border:2px solid #d9a516;border-radius:14px;padding:10px;font-size:26.5px;font-weight:900;color:#2b1a00;text-decoration:none}
+.nt{margin-top:8px;text-align:center;font-size:17px;color:var(--mu)}
 .fixbar{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:16px 14px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(180deg,rgba(251,248,241,0),var(--cr) 42%)}
 .fixbar .row{display:flex;gap:8px;max-width:536px;margin:0 auto}
-.fixbar a{flex:1;border-radius:99px;padding:15px 6px;font-weight:900;font-size:19px;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:7px;text-decoration:none;box-shadow:0 5px 14px rgba(30,50,20,.3)}
+.fixbar a{flex:1;border-radius:99px;padding:15px 6px;font-weight:900;font-size:21px;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:7px;text-decoration:none;box-shadow:0 5px 14px rgba(30,50,20,.3)}
 .fixbar svg{width:22px;height:22px}.tf{background:var(--g);color:#fff}.kk{background:#fee500;color:#191919}
-@media (max-width:380px){.hero h1{font-size:30px}.date{font-size:23px}.pct b{font-size:46px}.fixbar a{font-size:17px}.pc h3{font-size:20px}}
+@media (max-width:380px){.hero h1{font-size:30px}.date{font-size:25.5px}.pct b{font-size:46px}.fixbar a{font-size:18.5px}.pc h3{font-size:22px}}
 </style></head><body><main class="wrap">
 <header class="hero"><p class="st">풀빛고운을 아껴 주신 조합원님께만 드리는 혜택</p>
 <p class="ey">PULBIT GOUN · SKINCARE</p>
@@ -107,31 +115,33 @@ blockquote{font-size:16px;line-height:1.5;margin-top:6px;color:#3b3328}
 <p class="sub">토너부터 크림까지 기초화장품 7종</p>
 <div class="pct"><b>15%</b><span>할인에</span><b class="pl">+5%</b><span>쿠폰까지</span></div>
 <div class="shelf"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt=""><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt=""><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57964C.png" alt=""><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57962C.png" alt=""><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt=""></div>
-<div class="cpn"><div class="cl"><small>조합원님 전용</small><b>추가 할인 쿠폰</b><span>풀빛고운 7종 무엇이든</span></div><div class="cr"><b>5%</b><small>추가 할인</small></div></div>
+<div class="cpn"><div class="cl"><small>재구매 조합원님 전용</small><b>추가 할인 쿠폰</b><span>풀빛고운 7종 · 사전 주문 시</span></div><div class="cr"><b>5%</b><small>추가 할인</small></div></div>
 <div class="date">11/23(월) ~ 11/28(토)</div>
-<p class="use">🏪 매장에 오시거나 📞 전화 주문하실 때<br><b>쿠폰 꼭 사용하세요^^</b></p><a class="ucall" href="tel:0332646294">📞 033-264-6294 전화 주문</a>
+<p class="use">📞 <a href="tel:0332646294">264-6294</a> 전화 · 🏪 매장에서 <b>미리 주문</b>하실 때만<br><b>5% 쿠폰 사용 가능해요^^</b></p>
 <p class="cert">비건 · 천연 · 항노화 인증 <i></i> 주름개선·미백 기능성</p></header>
+<section class="sec s1"><h2>이 순서로 바르세요</h2><ol class="steps"><li><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt=""><em>1</em><span>토너</span></li><li><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt=""><em>2</em><span>에센스</span></li><li><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57964C.png" alt=""><em>3</em><span>아이크림</span></li><li><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57962C.png" alt=""><em>4</em><span>로션</span></li><li><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt=""><em>5</em><span>크림</span></li></ol></section>
 
 
 <section class="sec"><h2>풀빛고운 7종 자세히 보기<small>조합원 후기도 함께 담았어요</small></h2>
 <div class="hint">← 화살표를 누르거나 옆으로 넘겨 보세요 →</div>
-<div class="rw"><button class="nav l" type="button" aria-label="이전"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><div class="rail"><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt="풀빛고운 히알루론 토너" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">세안 후 첫 단계, 순하고 촉촉한 토너</p><h3>풀빛고운 히알루론 토너 <small>120ml</small></h3><span class="fn">주름개선 기능성</span><div class="pr"><s>15,900원</s><b>13,520원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>여러 종류의 히알루론산으로 속까지 촉촉하게</li><li>병풀(시카) 4가지 성분·식물성 펩타이드로 피부 진정</li><li>동백꽃·동백씨 추출물, 펌프형이라 2~3번 눌러 쓰기 편해요</li></ul><div class="rv"><p class="rh"><b>★ 4.7</b> 조합원 후기 6건</p><blockquote>“토너팩을 자주 해서 트러블이 안 나는 게 중요한데, 까다로운 제 목적에 잘 맞아요.”</blockquote><blockquote>“순하고 촉촉해서 애용합니다~ 수분크림과 같이 쓰고 있어요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt="풀빛고운 비타민 에센스" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">칙칙한 겨울 피부를 맑게, 비타민C 에센스</p><h3>풀빛고운 비타민 에센스 <small>30ml</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>28,000원</s><b>23,800원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>안정화 비타민C(아스코빌글루코사이드) 2% 미백 에센스</li><li>동백꽃수·저분자 히알루론산으로 보습</li><li>스포이드 타입, 묽은 세럼 제형</li></ul><div class="rv"><p class="rh"><b>★ 4.9</b> 조합원 후기 10건</p><blockquote>“약간 워터리한 세럼인데 피부 밝아지는 게 느껴집니다. 재구매 의사 백퍼!”</blockquote><blockquote>“어머니 선물 드렸는데 피부가 좋아지는 것 같다고 다음에도 사 달래요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57964C.png" alt="풀빛고운 윌렉스 아이크림" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">눈가 잔주름·건조함 집중 관리</p><h3>풀빛고운 윌렉스 아이크림 <small>30g</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>22,500원</s><b>19,120원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>시카·식물성 콜라겐 펩타이드·윌렉스로 눈가 탄력</li><li>알파-비사보롤 미백, 동백씨오일·시어버터 보습</li><li>콩알만큼 덜어 눈가에 톡톡 두드려 흡수</li></ul><div class="rv"><p class="rh"><b>★ 5.0</b> 조합원 후기 7건</p><blockquote>“눈가에 바르면 간지러워 못 썼는데, 자극 없는 순한 아이크림 찾았어요.”</blockquote><blockquote>“어머니께 선물했는데 촉촉하고 은은한 향이 너무 맘에 든다고 하세요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57962C.png" alt="풀빛고운 동백 로션" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">끈적임 없이 촉촉하게 마무리</p><h3>풀빛고운 동백 로션 <small>120ml</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>21,000원</s><b>17,850원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>동백씨오일·올리브오일·시어버터 식물성 오일 보습</li><li>알파-비사보롤 미백, 특허 진정 성분 함유</li><li>토너·에센스 뒤 2~3번 펌핑해 얼굴 전체에</li></ul><div class="rv"><p class="rh"><b>★ 5.0</b> 조합원 후기 9건</p><blockquote>“부드럽게 발리고 마무리감이 끈적이지 않아서 좋습니다.”</blockquote><blockquote>“순한 제품만 쓰는데 트러블 안 나고 흡수도 잘돼서 더 써 보려고요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt="풀빛고운 히알루론 수분크림" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">속건조 잡는 산뜻한 데일리 크림</p><h3>풀빛고운 히알루론 수분크림 <small>50g</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>24,800원</s><b>21,080원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>히알루론산·동백꽃수·꽃송이버섯 발효물로 수분 충전</li><li>부활초 성분 보습, 특허 진정 성분으로 예민할 때도</li><li>가볍게 발려 화장 전에도 밀리지 않아요</li></ul><div class="rv"><p class="rh"><b>★ 4.8</b> 조합원 후기 16건</p><blockquote>“가볍게 발리는데 보습력은 꽤 좋아요. 화장 전에 발라도 밀림 없어요.”</blockquote><blockquote>“초예민 피부인데 써 본 수분크림 중에 제일 좋아요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57965C.png" alt="풀빛고운 동백 영양크림" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">자기 전 듬뿍, 겨울철 영양 크림</p><h3>풀빛고운 동백 영양크림 <small>50g</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>23,500원</s><b>19,980원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>동백꽃수 24%·동백씨오일 2.7%로 영양 보습</li><li>시카 성분으로 환절기 예민한 피부 진정</li><li>한 주걱 덜어 펴 바르고 톡톡 두드려 흡수</li></ul><div class="rv"><p class="rh"><b>★ 4.5</b> 조합원 후기 11건</p><blockquote>“자기 전에 듬뿍 바르고 자면 다음 날 매끈 피부 됩니다.”</blockquote><blockquote>“유분기도 적당하고 끈적거림이 전혀 없어요. 품절될까 미리 샀어요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/11202C.jpg" alt="풀빛고운 바디로션" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">샤워 후 가볍게 바르는 바디로션</p><h3>풀빛고운 바디로션 <small>200ml</small></h3><div class="pr"><s>19,900원</s><b>16,920원</b><em class="cpt">+5% 쿠폰</em></div><ul class="pt"><li>판테놀·식물성 스쿠알란·세라마이드로 피부 보호</li><li>동백씨·달맞이꽃·올리브오일, 시어버터 함유</li><li>묽고 가벼운 제형이라 산뜻하게 쓰기 좋아요</li></ul></div></article></div><button class="nav r" type="button" aria-label="다음"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div></section>
+<div class="rw"><button class="nav l" type="button" aria-label="이전"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><div class="rail"><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt="풀빛고운 히알루론 토너" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">세안 후 첫 단계, 순하고 촉촉한 토너</p><h3>풀빛고운 히알루론 토너 <small>120ml</small></h3><span class="fn">주름개선 기능성</span><div class="pr"><s>15,900원</s><b>13,520원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>12,840원</b></p><ul class="pt"><li>여러 종류의 히알루론산으로 속까지 촉촉하게</li><li>병풀(시카) 4가지 성분·식물성 펩타이드로 피부 진정</li><li>동백꽃·동백씨 추출물, 펌프형이라 2~3번 눌러 쓰기 편해요</li></ul><div class="rv"><p class="rh"><b>★ 4.7</b> 조합원 후기 6건</p><blockquote>“토너팩을 자주 해서 트러블이 안 나는 게 중요한데, 까다로운 제 목적에 잘 맞아요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt="풀빛고운 비타민 에센스" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">칙칙한 겨울 피부를 맑게, 비타민C 에센스</p><h3>풀빛고운 비타민 에센스 <small>30ml</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>28,000원</s><b>23,800원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>22,610원</b></p><ul class="pt"><li>안정화 비타민C(아스코빌글루코사이드) 2% 미백 에센스</li><li>동백꽃수·저분자 히알루론산으로 보습</li><li>스포이드 타입, 묽은 세럼 제형</li></ul><div class="rv"><p class="rh"><b>★ 4.9</b> 조합원 후기 10건</p><blockquote>“약간 워터리한 세럼인데 피부 밝아지는 게 느껴집니다. 재구매 의사 백퍼!”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57964C.png" alt="풀빛고운 윌렉스 아이크림" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">눈가 잔주름·건조함 집중 관리</p><h3>풀빛고운 윌렉스 아이크림 <small>30g</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>22,500원</s><b>19,120원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>18,160원</b></p><ul class="pt"><li>시카·식물성 콜라겐 펩타이드·윌렉스로 눈가 탄력</li><li>알파-비사보롤 미백, 동백씨오일·시어버터 보습</li><li>콩알만큼 덜어 눈가에 톡톡 두드려 흡수</li></ul><div class="rv"><p class="rh"><b>★ 5.0</b> 조합원 후기 7건</p><blockquote>“눈가에 바르면 간지러워 못 썼는데, 자극 없는 순한 아이크림 찾았어요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57962C.png" alt="풀빛고운 동백 로션" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">끈적임 없이 촉촉하게 마무리</p><h3>풀빛고운 동백 로션 <small>120ml</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>21,000원</s><b>17,850원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>16,950원</b></p><ul class="pt"><li>동백씨오일·올리브오일·시어버터 식물성 오일 보습</li><li>알파-비사보롤 미백, 특허 진정 성분 함유</li><li>토너·에센스 뒤 2~3번 펌핑해 얼굴 전체에</li></ul><div class="rv"><p class="rh"><b>★ 5.0</b> 조합원 후기 9건</p><blockquote>“부드럽게 발리고 마무리감이 끈적이지 않아서 좋습니다.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt="풀빛고운 히알루론 수분크림" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">속건조 잡는 산뜻한 데일리 크림</p><h3>풀빛고운 히알루론 수분크림 <small>50g</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>24,800원</s><b>21,080원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>20,020원</b></p><ul class="pt"><li>히알루론산·동백꽃수·꽃송이버섯 발효물로 수분 충전</li><li>부활초 성분 보습, 특허 진정 성분으로 예민할 때도</li><li>가볍게 발려 화장 전에도 밀리지 않아요</li></ul><div class="rv"><p class="rh"><b>★ 4.8</b> 조합원 후기 16건</p><blockquote>“가볍게 발리는데 보습력은 꽤 좋아요. 화장 전에 발라도 밀림 없어요.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57965C.png" alt="풀빛고운 동백 영양크림" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">자기 전 듬뿍, 겨울철 영양 크림</p><h3>풀빛고운 동백 영양크림 <small>50g</small></h3><span class="fn">주름개선·미백 이중기능성</span><div class="pr"><s>23,500원</s><b>19,980원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>18,980원</b></p><ul class="pt"><li>동백꽃수 24%·동백씨오일 2.7%로 영양 보습</li><li>시카 성분으로 환절기 예민한 피부 진정</li><li>한 주걱 덜어 펴 바르고 톡톡 두드려 흡수</li></ul><div class="rv"><p class="rh"><b>★ 4.5</b> 조합원 후기 11건</p><blockquote>“자기 전에 듬뿍 바르고 자면 다음 날 매끈 피부 됩니다.”</blockquote></div></div></article><article class="pc"><div class="im"><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/11202C.jpg" alt="풀빛고운 바디로션" loading="lazy"><span class="off">15%</span></div><div class="bd"><p class="one">샤워 후 가볍게 바르는 바디로션</p><h3>풀빛고운 바디로션 <small>200ml</small></h3><div class="pr"><s>19,900원</s><b>16,920원</b></div><p class="cpp"><span>사전 주문 + 5% 쿠폰</span><b>16,070원</b></p><ul class="pt"><li>판테놀·식물성 스쿠알란·세라마이드로 피부 보호</li><li>동백씨·달맞이꽃·올리브오일, 시어버터 함유</li><li>묽고 가벼운 제형이라 산뜻하게 쓰기 좋아요</li></ul></div></article></div><button class="nav r" type="button" aria-label="다음"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div></section>
 
 <section class="sec"><h2>크림, 무엇을 고를까요?</h2>
 <div class="vs"><div><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt=""><b>히알루론 수분크림</b><p>가볍고 산뜻하게<br>속건조·화장 전에</p><span class="tg">아침·데일리</span></div>
 <div><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57965C.png" alt=""><b>동백 영양크림</b><p>동백 오일로 영양감<br>자기 전 듬뿍</p><span class="tg">저녁·밤 관리</span></div></div></section>
 
-<section class="sec"><h2>추천 라인업<small>아침부터 저녁까지, 이렇게 써 보세요</small></h2><div class="rt am"><p class="rtt"><span>☀️</span>아침 라인업<small>가볍고 산뜻하게, 화장 전에도</small></p><ol><li><em>1</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt=""><div><b>히알루론 토너</b><span>세안 후 토너로 결 정리</span></div><i>13,520원</i></li><li><em>2</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt=""><div><b>비타민 에센스</b><span>비타민C로 맑은 피부 준비</span></div><i>23,800원</i></li><li><em>3</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57962C.png" alt=""><div><b>동백 로션</b><span>끈적임 없이 촉촉하게</span></div><i>17,850원</i></li><li><em>4</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt=""><div><b>히알루론 수분크림</b><span>속건조 잡고 화장 밀림 없이</span></div><i>21,080원</i></li></ol></div><div class="rt pm"><p class="rtt"><span>🌙</span>저녁 라인업<small>하루 끝에 영양 듬뿍</small></p><ol><li><em>1</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt=""><div><b>히알루론 토너</b><span>토너팩으로 진정</span></div><i>13,520원</i></li><li><em>2</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt=""><div><b>비타민 에센스</b><span>낮 동안 지친 피부에 비타민C</span></div><i>23,800원</i></li><li><em>3</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57964C.png" alt=""><div><b>윌렉스 아이크림</b><span>눈가 잔주름에 톡톡</span></div><i>19,120원</i></li><li><em>4</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57965C.png" alt=""><div><b>동백 영양크림</b><span>자기 전 듬뿍 바르고 푹</span></div><i>19,980원</i></li></ol></div><p class="tipx">💡 한꺼번에 바꾸기 부담되면 <b>토너 + 크림</b>부터 시작해 보세요</p></section>
+<section class="sec"><h2>추천 라인업<small>아침부터 저녁까지, 이렇게 써 보세요</small></h2><div class="tabs"><button type="button" class="on" data-t="am">☀️ 아침</button><button type="button" data-t="pm">🌙 저녁</button></div><div class="rt am"><p class="rtt"><span>☀️</span>아침 라인업<small>가볍고 산뜻하게, 화장 전에도</small></p><ol><li><em>1</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt=""><div><b>히알루론 토너</b><span>세안 후 토너로 결 정리</span></div><i>13,520원</i></li><li><em>2</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt=""><div><b>비타민 에센스</b><span>비타민C로 맑은 피부 준비</span></div><i>23,800원</i></li><li><em>3</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57962C.png" alt=""><div><b>동백 로션</b><span>끈적임 없이 촉촉하게</span></div><i>17,850원</i></li><li><em>4</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57966C.png" alt=""><div><b>히알루론 수분크림</b><span>속건조 잡고 화장 밀림 없이</span></div><i>21,080원</i></li></ol></div><div class="rt pm hide"><p class="rtt"><span>🌙</span>저녁 라인업<small>하루 끝에 영양 듬뿍</small></p><ol><li><em>1</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57961C.png" alt=""><div><b>히알루론 토너</b><span>토너팩으로 진정</span></div><i>13,520원</i></li><li><em>2</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57963C.png" alt=""><div><b>비타민 에센스</b><span>낮 동안 지친 피부에 비타민C</span></div><i>23,800원</i></li><li><em>3</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57964C.png" alt=""><div><b>윌렉스 아이크림</b><span>눈가 잔주름에 톡톡</span></div><i>19,120원</i></li><li><em>4</em><img src="https://dureimg.ecoop.or.kr:9091/Delsys/DLOG/Goods/GoodsMaster/GoodsImage_480;v=20261116/57965C.png" alt=""><div><b>동백 영양크림</b><span>자기 전 듬뿍 바르고 푹</span></div><i>19,980원</i></li></ol></div></section>
 
 <section class="info" aria-label="매장 안내">
 <div class="ih"><small>풀빛고운 15% 할인 + 5% 쿠폰</small><b>11/23(월) ~ 11/28(토)</b></div>
 <div class="ib"><p class="nm">춘천두레생협 <span>거두점</span></p>
 <p class="ad">📍 공지로 70-61 (거두리하나로마트 인근)</p>
-<table class="hr"><tr><th>평일</th><td>오전 10시 ~ 오후 8시</td></tr><tr><th>토요일</th><td>오전 10시 ~ 오후 7시</td></tr><tr><th>공휴일</th><td>오전 10시 ~ 오후 6시</td></tr><tr class="off2"><th>일요일</th><td>휴무</td></tr></table>
+<div class="hg"><p><b>평일</b>10~20시</p><p><b>토요일</b>10~19시</p><p><b>공휴일</b>10~18시</p><p class="off2"><b>일요일</b>휴무</p></div>
 <a class="tl" href="tel:0332646294">📞 033-264-6294</a>
 <p class="nt">가격은 조합원가예요. 후기는 두레생협 장보기(ecoop) 조합원 후기에서 옮겼어요.</p></div></section>
 </main>
 <div class="fixbar"><div class="row"><a class="tf" href="tel:0332646294"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>전화 문의하기</a><a class="kk" href="https://pf.kakao.com/_wxliTn/chat" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.5 3 2 6.4 2 10.6c0 2.7 1.8 5.1 4.6 6.4l-1 3.6c-.1.3.2.5.5.3l4.2-2.8c.6.1 1.1.1 1.7.1 5.5 0 10-3.4 10-7.6S17.5 3 12 3z"/></svg>카톡 문의하기</a></div></div><script>
+document.querySelectorAll('.tabs button').forEach(function(b){b.onclick=function(){document.querySelectorAll('.tabs button').forEach(function(x){x.className=x===b?'on':''});document.querySelectorAll('.rt').forEach(function(r){r.classList.toggle('hide',!r.classList.contains(b.dataset.t))})}});
 document.querySelectorAll('.rw').forEach(function(w){var r=w.querySelector('.rail'),L=w.querySelector('.nav.l'),R=w.querySelector('.nav.r'),d=w.parentElement.querySelectorAll('.dots i');
 function st(){var c=r.children[0];return c?c.offsetWidth+12:r.clientWidth*.8}
 function up(){L.disabled=r.scrollLeft<8;R.disabled=r.scrollLeft+r.clientWidth>=r.scrollWidth-8;var cs=r.children,b=0,bd=1e9,m=r.scrollLeft+r.clientWidth/2;for(var i=0;i<cs.length;i++){var cc=cs[i].offsetLeft+cs[i].offsetWidth/2,dd=Math.abs(cc-m);if(dd<bd){bd=dd;b=i}}d.forEach(function(e,i){e.className=i===b?'on':''})}
